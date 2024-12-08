@@ -12,6 +12,8 @@
 <p><code>DB_USERNAME=admin</code></p>
 <p><code>DB_PASSWORD=admin</code></p>
 <p><code>DB_ROOT_PASSWORD=root</code></p>
+<p>Генерируем ключ</p>
+<p><code>php artisan key:generate --ansi</code></p>
 <p>Запускаем docker</p>
 <p><code>docker compose -f ./deploy/docker-compose.yml --env-file ./.env up --build</code></p>
 <p>Выполняем миграции</p>
