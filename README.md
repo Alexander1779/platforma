@@ -15,6 +15,6 @@
 <p>Запускаем docker</p>
 <p><code>docker compose -f ./deploy/docker-compose.yml --env-file ./.env up --build</code></p>
 <p>Выполняем миграции</p>
-<p><code>docker exec -t laravelapp php artisan migrate</code></p>
+<p><code>docker exec -t testapp php artisan migrate</code></p>
 <p>Наполняем данными</p>
-<p><code>docker exec -t laravelapp php artisan db:seed</code></p>
+<p><code>docker exec -t testapp php artisan db:seed</code></p>
